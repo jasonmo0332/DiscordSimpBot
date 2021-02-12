@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 client = discord.Client()
 
 bkwonUserId = 182676713212346368
-risenUserId = 192417297061642240
-bZhangUserId = 171533692127150080
-shrekUserId = 161332364574851072
+# risenUserId = 192417297061642240
+# bZhangUserId = 171533692127150080
+# shrekUserId = 161332364574851072
 load_dotenv()
 
 simpQuotes = ["shut up simp", "sorry no simps allowed", 
