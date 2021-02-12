@@ -30,7 +30,6 @@ async def on_message(message):
 
     if (message.author.id == bkwonUserId or message.author.id == risenUserId or message.author.id == bZhangUserId or message.author.id == shrekUserId):
         randomInt = random.randint(0, len(simpQuotes)  -  1)
-        print(message.author)
         await message.channel.send(message.author.name + ", " + simpQuotes[randomInt])
 
 client.run(os.getenv('TOKEN'))
