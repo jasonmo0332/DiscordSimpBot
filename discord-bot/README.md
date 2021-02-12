@@ -3,7 +3,7 @@ After pulling from GitHub, run these commands in terminal:
 
 
 ---installs environment variable dependencies---
-pip install -U python-dotenv
+py -3 -m pip install -U python-dotenv
 
 ---installs Discord dependencies---
 py -3 -m pip install -U discord.py
