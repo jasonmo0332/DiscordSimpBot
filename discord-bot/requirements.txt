@@ -1,5 +1,5 @@
 git+https://github.com/jasonmo0332/DiscordSimpBot
 PyNacl==1.3.0
 dnspython==1.16.0
-pip install -U python-dotenv
-pip install -U discord.py
+pip install python-dotenv
+pip install discord.py
