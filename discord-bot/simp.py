@@ -31,7 +31,7 @@ async def on_ready():
 async def on_message(message):
 
     sendMessageInt = random.randint(0, 100)
-    if (message.author.id == bkwonUserId && (sendMessageInt < 11 && sendMessageInt > 0)):
+    if (message.author.id == bkwonUserId and (sendMessageInt < 11 and sendMessageInt > 0)):
         randomQuoteInt = random.randint(0, len(simpQuotes)  -  1)
         await message.channel.send(message.author.name + ", " + simpQuotes[randomQuoteInt])
 
